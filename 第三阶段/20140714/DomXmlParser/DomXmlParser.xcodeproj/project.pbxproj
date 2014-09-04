@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1C57501973C26500FC814E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1C574F1973C26500FC814E /* Foundation.framework */; };
+		CC1C57521973C26500FC814E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1C57511973C26500FC814E /* CoreGraphics.framework */; };
+		CC1C57541973C26500FC814E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1C57531973C26500FC814E /* UIKit.framework */; };
+		CC1C575A1973C26500FC814E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC1C57581973C26500FC814E /* InfoPlist.strings */; };
+		CC1C575C1973C26500FC814E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C575B1973C26500FC814E /* main.m */; };
+		CC1C57601973C26500FC814E /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C575F1973C26500FC814E /* QYAppDelegate.m */; };
+		CC1C57631973C26500FC814E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1C57611973C26500FC814E /* Main.storyboard */; };
+		CC1C57661973C26500FC814E /* QYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C57651973C26500FC814E /* QYViewController.m */; };
+		CC1C57681973C26500FC814E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1C57671973C26500FC814E /* Images.xcassets */; };
+		CC1C576F1973C26500FC814E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1C576E1973C26500FC814E /* XCTest.framework */; };
+		CC1C57701973C26500FC814E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1C574F1973C26500FC814E /* Foundation.framework */; };
+		CC1C57711973C26500FC814E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1C57531973C26500FC814E /* UIKit.framework */; };
+		CC1C57791973C26500FC814E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC1C57771973C26500FC814E /* InfoPlist.strings */; };
+		CC1C577B1973C26500FC814E /* DomXmlParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C577A1973C26500FC814E /* DomXmlParserTests.m */; };
+		CC1C57851973C28C00FC814E /* bookstore.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC1C57841973C28C00FC814E /* bookstore.xml */; };
+		CC1C57891973C2DF00FC814E /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C57881973C2DF00FC814E /* GDataXMLNode.m */; };
+		CC1C578C1973C63100FC814E /* QYBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C578B1973C63100FC814E /* QYBook.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC1C57721973C26500FC814E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1C57441973C26500FC814E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1C574B1973C26500FC814E;
+			remoteInfo = DomXmlParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC1C574C1973C26500FC814E /* DomXmlParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomXmlParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1C574F1973C26500FC814E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC1C57511973C26500FC814E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC1C57531973C26500FC814E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC1C57571973C26500FC814E /* DomXmlParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DomXmlParser-Info.plist"; sourceTree = "<group>"; };
+		CC1C57591973C26500FC814E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC1C575B1973C26500FC814E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC1C575D1973C26500FC814E /* DomXmlParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DomXmlParser-Prefix.pch"; sourceTree = "<group>"; };
+		CC1C575E1973C26500FC814E /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CC1C575F1973C26500FC814E /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CC1C57621973C26500FC814E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC1C57641973C26500FC814E /* QYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYViewController.h; sourceTree = "<group>"; };
+		CC1C57651973C26500FC814E /* QYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYViewController.m; sourceTree = "<group>"; };
+		CC1C57671973C26500FC814E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC1C576D1973C26500FC814E /* DomXmlParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomXmlParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1C576E1973C26500FC814E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC1C57761973C26500FC814E /* DomXmlParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DomXmlParserTests-Info.plist"; sourceTree = "<group>"; };
+		CC1C57781973C26500FC814E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC1C577A1973C26500FC814E /* DomXmlParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DomXmlParserTests.m; sourceTree = "<group>"; };
+		CC1C57841973C28C00FC814E /* bookstore.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bookstore.xml; sourceTree = "<group>"; };
+		CC1C57871973C2DF00FC814E /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		CC1C57881973C2DF00FC814E /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		CC1C578A1973C63100FC814E /* QYBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYBook.h; sourceTree = "<group>"; };
+		CC1C578B1973C63100FC814E /* QYBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYBook.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1C57491973C26500FC814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1C57521973C26500FC814E /* CoreGraphics.framework in Frameworks */,
+				CC1C57541973C26500FC814E /* UIKit.framework in Frameworks */,
+				CC1C57501973C26500FC814E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C576A1973C26500FC814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1C576F1973C26500FC814E /* XCTest.framework in Frameworks */,
+				CC1C57711973C26500FC814E /* UIKit.framework in Frameworks */,
+				CC1C57701973C26500FC814E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC1C57431973C26500FC814E = {
+			isa = PBXGroup;
+			children = (
+				CC1C57551973C26500FC814E /* DomXmlParser */,
+				CC1C57741973C26500FC814E /* DomXmlParserTests */,
+				CC1C574E1973C26500FC814E /* Frameworks */,
+				CC1C574D1973C26500FC814E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1C574D1973C26500FC814E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C574C1973C26500FC814E /* DomXmlParser.app */,
+				CC1C576D1973C26500FC814E /* DomXmlParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1C574E1973C26500FC814E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C574F1973C26500FC814E /* Foundation.framework */,
+				CC1C57511973C26500FC814E /* CoreGraphics.framework */,
+				CC1C57531973C26500FC814E /* UIKit.framework */,
+				CC1C576E1973C26500FC814E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC1C57551973C26500FC814E /* DomXmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C57861973C2DF00FC814E /* XMLSupport */,
+				CC1C575E1973C26500FC814E /* QYAppDelegate.h */,
+				CC1C575F1973C26500FC814E /* QYAppDelegate.m */,
+				CC1C57611973C26500FC814E /* Main.storyboard */,
+				CC1C57641973C26500FC814E /* QYViewController.h */,
+				CC1C57651973C26500FC814E /* QYViewController.m */,
+				CC1C578A1973C63100FC814E /* QYBook.h */,
+				CC1C578B1973C63100FC814E /* QYBook.m */,
+				CC1C57671973C26500FC814E /* Images.xcassets */,
+				CC1C57561973C26500FC814E /* Supporting Files */,
+			);
+			path = DomXmlParser;
+			sourceTree = "<group>";
+		};
+		CC1C57561973C26500FC814E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C57841973C28C00FC814E /* bookstore.xml */,
+				CC1C57571973C26500FC814E /* DomXmlParser-Info.plist */,
+				CC1C57581973C26500FC814E /* InfoPlist.strings */,
+				CC1C575B1973C26500FC814E /* main.m */,
+				CC1C575D1973C26500FC814E /* DomXmlParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC1C57741973C26500FC814E /* DomXmlParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C577A1973C26500FC814E /* DomXmlParserTests.m */,
+				CC1C57751973C26500FC814E /* Supporting Files */,
+			);
+			path = DomXmlParserTests;
+			sourceTree = "<group>";
+		};
+		CC1C57751973C26500FC814E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C57761973C26500FC814E /* DomXmlParserTests-Info.plist */,
+				CC1C57771973C26500FC814E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC1C57861973C2DF00FC814E /* XMLSupport */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C57871973C2DF00FC814E /* GDataXMLNode.h */,
+				CC1C57881973C2DF00FC814E /* GDataXMLNode.m */,
+			);
+			path = XMLSupport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC1C574B1973C26500FC814E /* DomXmlParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1C577E1973C26500FC814E /* Build configuration list for PBXNativeTarget "DomXmlParser" */;
+			buildPhases = (
+				CC1C57481973C26500FC814E /* Sources */,
+				CC1C57491973C26500FC814E /* Frameworks */,
+				CC1C574A1973C26500FC814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DomXmlParser;
+			productName = DomXmlParser;
+			productReference = CC1C574C1973C26500FC814E /* DomXmlParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC1C576C1973C26500FC814E /* DomXmlParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1C57811973C26500FC814E /* Build configuration list for PBXNativeTarget "DomXmlParserTests" */;
+			buildPhases = (
+				CC1C57691973C26500FC814E /* Sources */,
+				CC1C576A1973C26500FC814E /* Frameworks */,
+				CC1C576B1973C26500FC814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1C57731973C26500FC814E /* PBXTargetDependency */,
+			);
+			name = DomXmlParserTests;
+			productName = DomXmlParserTests;
+			productReference = CC1C576D1973C26500FC814E /* DomXmlParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1C57441973C26500FC814E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "河南青云信息技术有限公司";
+				TargetAttributes = {
+					CC1C576C1973C26500FC814E = {
+						TestTargetID = CC1C574B1973C26500FC814E;
+					};
+				};
+			};
+			buildConfigurationList = CC1C57471973C26500FC814E /* Build configuration list for PBXProject "DomXmlParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC1C57431973C26500FC814E;
+			productRefGroup = CC1C574D1973C26500FC814E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1C574B1973C26500FC814E /* DomXmlParser */,
+				CC1C576C1973C26500FC814E /* DomXmlParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC1C574A1973C26500FC814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1C57851973C28C00FC814E /* bookstore.xml in Resources */,
+				CC1C57681973C26500FC814E /* Images.xcassets in Resources */,
+				CC1C575A1973C26500FC814E /* InfoPlist.strings in Resources */,
+				CC1C57631973C26500FC814E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C576B1973C26500FC814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1C57791973C26500FC814E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1C57481973C26500FC814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1C57601973C26500FC814E /* QYAppDelegate.m in Sources */,
+				CC1C57891973C2DF00FC814E /* GDataXMLNode.m in Sources */,
+				CC1C575C1973C26500FC814E /* main.m in Sources */,
+				CC1C578C1973C63100FC814E /* QYBook.m in Sources */,
+				CC1C57661973C26500FC814E /* QYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C57691973C26500FC814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1C577B1973C26500FC814E /* DomXmlParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC1C57731973C26500FC814E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC1C574B1973C26500FC814E /* DomXmlParser */;
+			targetProxy = CC1C57721973C26500FC814E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC1C57581973C26500FC814E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1C57591973C26500FC814E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC1C57611973C26500FC814E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1C57621973C26500FC814E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC1C57771973C26500FC814E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1C57781973C26500FC814E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC1C577C1973C26500FC814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC1C577D1973C26500FC814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC1C577F1973C26500FC814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomXmlParser/DomXmlParser-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "DomXmlParser/DomXmlParser-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC1C57801973C26500FC814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomXmlParser/DomXmlParser-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "DomXmlParser/DomXmlParser-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CC1C57821973C26500FC814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DomXmlParser.app/DomXmlParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomXmlParser/DomXmlParser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DomXmlParserTests/DomXmlParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC1C57831973C26500FC814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DomXmlParser.app/DomXmlParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomXmlParser/DomXmlParser-Prefix.pch";
+				INFOPLIST_FILE = "DomXmlParserTests/DomXmlParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1C57471973C26500FC814E /* Build configuration list for PBXProject "DomXmlParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1C577C1973C26500FC814E /* Debug */,
+				CC1C577D1973C26500FC814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1C577E1973C26500FC814E /* Build configuration list for PBXNativeTarget "DomXmlParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1C577F1973C26500FC814E /* Debug */,
+				CC1C57801973C26500FC814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC1C57811973C26500FC814E /* Build configuration list for PBXNativeTarget "DomXmlParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1C57821973C26500FC814E /* Debug */,
+				CC1C57831973C26500FC814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1C57441973C26500FC814E /* Project object */;
+}

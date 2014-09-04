@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF7BBB619737ACC00504633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF7BBB519737ACC00504633 /* Foundation.framework */; };
+		CCF7BBB819737ACC00504633 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF7BBB719737ACC00504633 /* CoreGraphics.framework */; };
+		CCF7BBBA19737ACC00504633 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF7BBB919737ACC00504633 /* UIKit.framework */; };
+		CCF7BBC019737ACC00504633 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF7BBBE19737ACC00504633 /* InfoPlist.strings */; };
+		CCF7BBC219737ACC00504633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7BBC119737ACC00504633 /* main.m */; };
+		CCF7BBC619737ACC00504633 /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7BBC519737ACC00504633 /* QYAppDelegate.m */; };
+		CCF7BBC919737ACC00504633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF7BBC719737ACC00504633 /* Main.storyboard */; };
+		CCF7BBCC19737ACC00504633 /* QYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7BBCB19737ACC00504633 /* QYViewController.m */; };
+		CCF7BBCE19737ACC00504633 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF7BBCD19737ACC00504633 /* Images.xcassets */; };
+		CCF7BBD519737ACC00504633 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF7BBD419737ACC00504633 /* XCTest.framework */; };
+		CCF7BBD619737ACC00504633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF7BBB519737ACC00504633 /* Foundation.framework */; };
+		CCF7BBD719737ACC00504633 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF7BBB919737ACC00504633 /* UIKit.framework */; };
+		CCF7BBDF19737ACC00504633 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF7BBDD19737ACC00504633 /* InfoPlist.strings */; };
+		CCF7BBE119737ACC00504633 /* SaxXmlParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7BBE019737ACC00504633 /* SaxXmlParserTests.m */; };
+		CCF7BBEB19737AF000504633 /* bookstore.xml in Resources */ = {isa = PBXBuildFile; fileRef = CCF7BBEA19737AF000504633 /* bookstore.xml */; };
+		CCF7BBEE19737B4400504633 /* QYBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7BBED19737B4400504633 /* QYBook.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF7BBD819737ACC00504633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF7BBAA19737ACC00504633 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF7BBB119737ACC00504633;
+			remoteInfo = SaxXmlParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF7BBB219737ACC00504633 /* SaxXmlParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaxXmlParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF7BBB519737ACC00504633 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCF7BBB719737ACC00504633 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCF7BBB919737ACC00504633 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCF7BBBD19737ACC00504633 /* SaxXmlParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaxXmlParser-Info.plist"; sourceTree = "<group>"; };
+		CCF7BBBF19737ACC00504633 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCF7BBC119737ACC00504633 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCF7BBC319737ACC00504633 /* SaxXmlParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaxXmlParser-Prefix.pch"; sourceTree = "<group>"; };
+		CCF7BBC419737ACC00504633 /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CCF7BBC519737ACC00504633 /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CCF7BBC819737ACC00504633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF7BBCA19737ACC00504633 /* QYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYViewController.h; sourceTree = "<group>"; };
+		CCF7BBCB19737ACC00504633 /* QYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYViewController.m; sourceTree = "<group>"; };
+		CCF7BBCD19737ACC00504633 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCF7BBD319737ACC00504633 /* SaxXmlParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaxXmlParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF7BBD419737ACC00504633 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCF7BBDC19737ACC00504633 /* SaxXmlParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaxXmlParserTests-Info.plist"; sourceTree = "<group>"; };
+		CCF7BBDE19737ACC00504633 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCF7BBE019737ACC00504633 /* SaxXmlParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaxXmlParserTests.m; sourceTree = "<group>"; };
+		CCF7BBEA19737AF000504633 /* bookstore.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bookstore.xml; sourceTree = "<group>"; };
+		CCF7BBEC19737B4400504633 /* QYBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYBook.h; sourceTree = "<group>"; };
+		CCF7BBED19737B4400504633 /* QYBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYBook.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF7BBAF19737ACC00504633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF7BBB819737ACC00504633 /* CoreGraphics.framework in Frameworks */,
+				CCF7BBBA19737ACC00504633 /* UIKit.framework in Frameworks */,
+				CCF7BBB619737ACC00504633 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF7BBD019737ACC00504633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF7BBD519737ACC00504633 /* XCTest.framework in Frameworks */,
+				CCF7BBD719737ACC00504633 /* UIKit.framework in Frameworks */,
+				CCF7BBD619737ACC00504633 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF7BBA919737ACC00504633 = {
+			isa = PBXGroup;
+			children = (
+				CCF7BBBB19737ACC00504633 /* SaxXmlParser */,
+				CCF7BBDA19737ACC00504633 /* SaxXmlParserTests */,
+				CCF7BBB419737ACC00504633 /* Frameworks */,
+				CCF7BBB319737ACC00504633 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF7BBB319737ACC00504633 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF7BBB219737ACC00504633 /* SaxXmlParser.app */,
+				CCF7BBD319737ACC00504633 /* SaxXmlParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF7BBB419737ACC00504633 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCF7BBB519737ACC00504633 /* Foundation.framework */,
+				CCF7BBB719737ACC00504633 /* CoreGraphics.framework */,
+				CCF7BBB919737ACC00504633 /* UIKit.framework */,
+				CCF7BBD419737ACC00504633 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCF7BBBB19737ACC00504633 /* SaxXmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				CCF7BBC419737ACC00504633 /* QYAppDelegate.h */,
+				CCF7BBC519737ACC00504633 /* QYAppDelegate.m */,
+				CCF7BBC719737ACC00504633 /* Main.storyboard */,
+				CCF7BBCA19737ACC00504633 /* QYViewController.h */,
+				CCF7BBCB19737ACC00504633 /* QYViewController.m */,
+				CCF7BBEC19737B4400504633 /* QYBook.h */,
+				CCF7BBED19737B4400504633 /* QYBook.m */,
+				CCF7BBCD19737ACC00504633 /* Images.xcassets */,
+				CCF7BBBC19737ACC00504633 /* Supporting Files */,
+			);
+			path = SaxXmlParser;
+			sourceTree = "<group>";
+		};
+		CCF7BBBC19737ACC00504633 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF7BBBD19737ACC00504633 /* SaxXmlParser-Info.plist */,
+				CCF7BBBE19737ACC00504633 /* InfoPlist.strings */,
+				CCF7BBC119737ACC00504633 /* main.m */,
+				CCF7BBC319737ACC00504633 /* SaxXmlParser-Prefix.pch */,
+				CCF7BBEA19737AF000504633 /* bookstore.xml */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCF7BBDA19737ACC00504633 /* SaxXmlParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF7BBE019737ACC00504633 /* SaxXmlParserTests.m */,
+				CCF7BBDB19737ACC00504633 /* Supporting Files */,
+			);
+			path = SaxXmlParserTests;
+			sourceTree = "<group>";
+		};
+		CCF7BBDB19737ACC00504633 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF7BBDC19737ACC00504633 /* SaxXmlParserTests-Info.plist */,
+				CCF7BBDD19737ACC00504633 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF7BBB119737ACC00504633 /* SaxXmlParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF7BBE419737ACC00504633 /* Build configuration list for PBXNativeTarget "SaxXmlParser" */;
+			buildPhases = (
+				CCF7BBAE19737ACC00504633 /* Sources */,
+				CCF7BBAF19737ACC00504633 /* Frameworks */,
+				CCF7BBB019737ACC00504633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaxXmlParser;
+			productName = SaxXmlParser;
+			productReference = CCF7BBB219737ACC00504633 /* SaxXmlParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF7BBD219737ACC00504633 /* SaxXmlParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF7BBE719737ACC00504633 /* Build configuration list for PBXNativeTarget "SaxXmlParserTests" */;
+			buildPhases = (
+				CCF7BBCF19737ACC00504633 /* Sources */,
+				CCF7BBD019737ACC00504633 /* Frameworks */,
+				CCF7BBD119737ACC00504633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF7BBD919737ACC00504633 /* PBXTargetDependency */,
+			);
+			name = SaxXmlParserTests;
+			productName = SaxXmlParserTests;
+			productReference = CCF7BBD319737ACC00504633 /* SaxXmlParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF7BBAA19737ACC00504633 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "河南青云信息技术有限公司";
+				TargetAttributes = {
+					CCF7BBD219737ACC00504633 = {
+						TestTargetID = CCF7BBB119737ACC00504633;
+					};
+				};
+			};
+			buildConfigurationList = CCF7BBAD19737ACC00504633 /* Build configuration list for PBXProject "SaxXmlParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF7BBA919737ACC00504633;
+			productRefGroup = CCF7BBB319737ACC00504633 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF7BBB119737ACC00504633 /* SaxXmlParser */,
+				CCF7BBD219737ACC00504633 /* SaxXmlParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF7BBB019737ACC00504633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF7BBCE19737ACC00504633 /* Images.xcassets in Resources */,
+				CCF7BBC019737ACC00504633 /* InfoPlist.strings in Resources */,
+				CCF7BBC919737ACC00504633 /* Main.storyboard in Resources */,
+				CCF7BBEB19737AF000504633 /* bookstore.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF7BBD119737ACC00504633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF7BBDF19737ACC00504633 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF7BBAE19737ACC00504633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF7BBEE19737B4400504633 /* QYBook.m in Sources */,
+				CCF7BBC619737ACC00504633 /* QYAppDelegate.m in Sources */,
+				CCF7BBC219737ACC00504633 /* main.m in Sources */,
+				CCF7BBCC19737ACC00504633 /* QYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF7BBCF19737ACC00504633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF7BBE119737ACC00504633 /* SaxXmlParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF7BBD919737ACC00504633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF7BBB119737ACC00504633 /* SaxXmlParser */;
+			targetProxy = CCF7BBD819737ACC00504633 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF7BBBE19737ACC00504633 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF7BBBF19737ACC00504633 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCF7BBC719737ACC00504633 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF7BBC819737ACC00504633 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF7BBDD19737ACC00504633 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF7BBDE19737ACC00504633 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF7BBE219737ACC00504633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCF7BBE319737ACC00504633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF7BBE519737ACC00504633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaxXmlParser/SaxXmlParser-Prefix.pch";
+				INFOPLIST_FILE = "SaxXmlParser/SaxXmlParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCF7BBE619737ACC00504633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaxXmlParser/SaxXmlParser-Prefix.pch";
+				INFOPLIST_FILE = "SaxXmlParser/SaxXmlParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCF7BBE819737ACC00504633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaxXmlParser.app/SaxXmlParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaxXmlParser/SaxXmlParser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SaxXmlParserTests/SaxXmlParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCF7BBE919737ACC00504633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaxXmlParser.app/SaxXmlParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaxXmlParser/SaxXmlParser-Prefix.pch";
+				INFOPLIST_FILE = "SaxXmlParserTests/SaxXmlParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF7BBAD19737ACC00504633 /* Build configuration list for PBXProject "SaxXmlParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF7BBE219737ACC00504633 /* Debug */,
+				CCF7BBE319737ACC00504633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF7BBE419737ACC00504633 /* Build configuration list for PBXNativeTarget "SaxXmlParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF7BBE519737ACC00504633 /* Debug */,
+				CCF7BBE619737ACC00504633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF7BBE719737ACC00504633 /* Build configuration list for PBXNativeTarget "SaxXmlParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF7BBE819737ACC00504633 /* Debug */,
+				CCF7BBE919737ACC00504633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF7BBAA19737ACC00504633 /* Project object */;
+}

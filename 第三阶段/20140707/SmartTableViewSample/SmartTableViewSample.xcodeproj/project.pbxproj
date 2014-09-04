@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB22D68196A7EFB00DAB900 /* QYSmartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB22D67196A7EFB00DAB900 /* QYSmartTableViewCell.m */; };
+		CCEB30CB196A786D00410E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB30CA196A786D00410E91 /* Foundation.framework */; };
+		CCEB30CD196A786D00410E91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB30CC196A786D00410E91 /* CoreGraphics.framework */; };
+		CCEB30CF196A786D00410E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB30CE196A786D00410E91 /* UIKit.framework */; };
+		CCEB30D5196A786D00410E91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCEB30D3196A786D00410E91 /* InfoPlist.strings */; };
+		CCEB30D7196A786D00410E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEB30D6196A786D00410E91 /* main.m */; };
+		CCEB30DB196A786D00410E91 /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEB30DA196A786D00410E91 /* QYAppDelegate.m */; };
+		CCEB30DD196A786D00410E91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEB30DC196A786D00410E91 /* Images.xcassets */; };
+		CCEB30E4196A786D00410E91 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB30E3196A786D00410E91 /* XCTest.framework */; };
+		CCEB30E5196A786D00410E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB30CA196A786D00410E91 /* Foundation.framework */; };
+		CCEB30E6196A786D00410E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB30CE196A786D00410E91 /* UIKit.framework */; };
+		CCEB30EE196A786D00410E91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCEB30EC196A786D00410E91 /* InfoPlist.strings */; };
+		CCEB30F0196A786D00410E91 /* SmartTableViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEB30EF196A786D00410E91 /* SmartTableViewSampleTests.m */; };
+		CCEB30FB196A789500410E91 /* QYNameListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEB30FA196A789500410E91 /* QYNameListViewController.m */; };
+		CCEB30FE196A7B1200410E91 /* QYAnotherListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEB30FD196A7B1200410E91 /* QYAnotherListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEB30E7196A786D00410E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEB30BF196A786D00410E91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEB30C6196A786D00410E91;
+			remoteInfo = SmartTableViewSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB22D66196A7EFB00DAB900 /* QYSmartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYSmartTableViewCell.h; sourceTree = "<group>"; };
+		CCB22D67196A7EFB00DAB900 /* QYSmartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYSmartTableViewCell.m; sourceTree = "<group>"; };
+		CCEB30C7196A786D00410E91 /* SmartTableViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTableViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEB30CA196A786D00410E91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCEB30CC196A786D00410E91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCEB30CE196A786D00410E91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCEB30D2196A786D00410E91 /* SmartTableViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartTableViewSample-Info.plist"; sourceTree = "<group>"; };
+		CCEB30D4196A786D00410E91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCEB30D6196A786D00410E91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCEB30D8196A786D00410E91 /* SmartTableViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartTableViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		CCEB30D9196A786D00410E91 /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CCEB30DA196A786D00410E91 /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CCEB30DC196A786D00410E91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCEB30E2196A786D00410E91 /* SmartTableViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTableViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEB30E3196A786D00410E91 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCEB30EB196A786D00410E91 /* SmartTableViewSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartTableViewSampleTests-Info.plist"; sourceTree = "<group>"; };
+		CCEB30ED196A786D00410E91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCEB30EF196A786D00410E91 /* SmartTableViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartTableViewSampleTests.m; sourceTree = "<group>"; };
+		CCEB30F9196A789500410E91 /* QYNameListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYNameListViewController.h; sourceTree = "<group>"; };
+		CCEB30FA196A789500410E91 /* QYNameListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYNameListViewController.m; sourceTree = "<group>"; };
+		CCEB30FC196A7B1200410E91 /* QYAnotherListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYAnotherListViewController.h; sourceTree = "<group>"; };
+		CCEB30FD196A7B1200410E91 /* QYAnotherListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYAnotherListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEB30C4196A786D00410E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB30CD196A786D00410E91 /* CoreGraphics.framework in Frameworks */,
+				CCEB30CF196A786D00410E91 /* UIKit.framework in Frameworks */,
+				CCEB30CB196A786D00410E91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEB30DF196A786D00410E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB30E4196A786D00410E91 /* XCTest.framework in Frameworks */,
+				CCEB30E6196A786D00410E91 /* UIKit.framework in Frameworks */,
+				CCEB30E5196A786D00410E91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCEB30BE196A786D00410E91 = {
+			isa = PBXGroup;
+			children = (
+				CCEB30D0196A786D00410E91 /* SmartTableViewSample */,
+				CCEB30E9196A786D00410E91 /* SmartTableViewSampleTests */,
+				CCEB30C9196A786D00410E91 /* Frameworks */,
+				CCEB30C8196A786D00410E91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEB30C8196A786D00410E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB30C7196A786D00410E91 /* SmartTableViewSample.app */,
+				CCEB30E2196A786D00410E91 /* SmartTableViewSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEB30C9196A786D00410E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB30CA196A786D00410E91 /* Foundation.framework */,
+				CCEB30CC196A786D00410E91 /* CoreGraphics.framework */,
+				CCEB30CE196A786D00410E91 /* UIKit.framework */,
+				CCEB30E3196A786D00410E91 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCEB30D0196A786D00410E91 /* SmartTableViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				CCB22D66196A7EFB00DAB900 /* QYSmartTableViewCell.h */,
+				CCB22D67196A7EFB00DAB900 /* QYSmartTableViewCell.m */,
+				CCEB30D9196A786D00410E91 /* QYAppDelegate.h */,
+				CCEB30DA196A786D00410E91 /* QYAppDelegate.m */,
+				CCEB30F9196A789500410E91 /* QYNameListViewController.h */,
+				CCEB30FA196A789500410E91 /* QYNameListViewController.m */,
+				CCEB30FC196A7B1200410E91 /* QYAnotherListViewController.h */,
+				CCEB30FD196A7B1200410E91 /* QYAnotherListViewController.m */,
+				CCEB30DC196A786D00410E91 /* Images.xcassets */,
+				CCEB30D1196A786D00410E91 /* Supporting Files */,
+			);
+			path = SmartTableViewSample;
+			sourceTree = "<group>";
+		};
+		CCEB30D1196A786D00410E91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB30D2196A786D00410E91 /* SmartTableViewSample-Info.plist */,
+				CCEB30D3196A786D00410E91 /* InfoPlist.strings */,
+				CCEB30D6196A786D00410E91 /* main.m */,
+				CCEB30D8196A786D00410E91 /* SmartTableViewSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCEB30E9196A786D00410E91 /* SmartTableViewSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB30EF196A786D00410E91 /* SmartTableViewSampleTests.m */,
+				CCEB30EA196A786D00410E91 /* Supporting Files */,
+			);
+			path = SmartTableViewSampleTests;
+			sourceTree = "<group>";
+		};
+		CCEB30EA196A786D00410E91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEB30EB196A786D00410E91 /* SmartTableViewSampleTests-Info.plist */,
+				CCEB30EC196A786D00410E91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEB30C6196A786D00410E91 /* SmartTableViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEB30F3196A786D00410E91 /* Build configuration list for PBXNativeTarget "SmartTableViewSample" */;
+			buildPhases = (
+				CCEB30C3196A786D00410E91 /* Sources */,
+				CCEB30C4196A786D00410E91 /* Frameworks */,
+				CCEB30C5196A786D00410E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTableViewSample;
+			productName = SmartTableViewSample;
+			productReference = CCEB30C7196A786D00410E91 /* SmartTableViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEB30E1196A786D00410E91 /* SmartTableViewSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEB30F6196A786D00410E91 /* Build configuration list for PBXNativeTarget "SmartTableViewSampleTests" */;
+			buildPhases = (
+				CCEB30DE196A786D00410E91 /* Sources */,
+				CCEB30DF196A786D00410E91 /* Frameworks */,
+				CCEB30E0196A786D00410E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEB30E8196A786D00410E91 /* PBXTargetDependency */,
+			);
+			name = SmartTableViewSampleTests;
+			productName = SmartTableViewSampleTests;
+			productReference = CCEB30E2196A786D00410E91 /* SmartTableViewSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEB30BF196A786D00410E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "河南青云信息技术有限公司";
+				TargetAttributes = {
+					CCEB30E1196A786D00410E91 = {
+						TestTargetID = CCEB30C6196A786D00410E91;
+					};
+				};
+			};
+			buildConfigurationList = CCEB30C2196A786D00410E91 /* Build configuration list for PBXProject "SmartTableViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCEB30BE196A786D00410E91;
+			productRefGroup = CCEB30C8196A786D00410E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEB30C6196A786D00410E91 /* SmartTableViewSample */,
+				CCEB30E1196A786D00410E91 /* SmartTableViewSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEB30C5196A786D00410E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB30D5196A786D00410E91 /* InfoPlist.strings in Resources */,
+				CCEB30DD196A786D00410E91 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEB30E0196A786D00410E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB30EE196A786D00410E91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEB30C3196A786D00410E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB30FB196A789500410E91 /* QYNameListViewController.m in Sources */,
+				CCEB30DB196A786D00410E91 /* QYAppDelegate.m in Sources */,
+				CCEB30FE196A7B1200410E91 /* QYAnotherListViewController.m in Sources */,
+				CCEB30D7196A786D00410E91 /* main.m in Sources */,
+				CCB22D68196A7EFB00DAB900 /* QYSmartTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEB30DE196A786D00410E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEB30F0196A786D00410E91 /* SmartTableViewSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEB30E8196A786D00410E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEB30C6196A786D00410E91 /* SmartTableViewSample */;
+			targetProxy = CCEB30E7196A786D00410E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCEB30D3196A786D00410E91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEB30D4196A786D00410E91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCEB30EC196A786D00410E91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEB30ED196A786D00410E91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCEB30F1196A786D00410E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCEB30F2196A786D00410E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCEB30F4196A786D00410E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTableViewSample/SmartTableViewSample-Prefix.pch";
+				INFOPLIST_FILE = "SmartTableViewSample/SmartTableViewSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCEB30F5196A786D00410E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTableViewSample/SmartTableViewSample-Prefix.pch";
+				INFOPLIST_FILE = "SmartTableViewSample/SmartTableViewSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCEB30F7196A786D00410E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartTableViewSample.app/SmartTableViewSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTableViewSample/SmartTableViewSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmartTableViewSampleTests/SmartTableViewSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCEB30F8196A786D00410E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartTableViewSample.app/SmartTableViewSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTableViewSample/SmartTableViewSample-Prefix.pch";
+				INFOPLIST_FILE = "SmartTableViewSampleTests/SmartTableViewSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEB30C2196A786D00410E91 /* Build configuration list for PBXProject "SmartTableViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEB30F1196A786D00410E91 /* Debug */,
+				CCEB30F2196A786D00410E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEB30F3196A786D00410E91 /* Build configuration list for PBXNativeTarget "SmartTableViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEB30F4196A786D00410E91 /* Debug */,
+				CCEB30F5196A786D00410E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEB30F6196A786D00410E91 /* Build configuration list for PBXNativeTarget "SmartTableViewSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEB30F7196A786D00410E91 /* Debug */,
+				CCEB30F8196A786D00410E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEB30BF196A786D00410E91 /* Project object */;
+}
