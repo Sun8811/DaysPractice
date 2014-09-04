@@ -1,0 +1,26 @@
+#include <stdio.h>
+#if 0
+typedef struct {
+    char a;
+    int b;
+    short c;
+    long d;
+} TestSt;
+#endif
+
+typedef struct {
+    char a;
+    char ch;
+    short c;
+    char ch2;
+    int b;
+    long d;
+} TestSt;
+
+int main(void)
+{
+    TestSt stVar = {0};
+
+    printf("sizeof(stVar): %lu\n", sizeof(stVar));
+    return 0;
+}
